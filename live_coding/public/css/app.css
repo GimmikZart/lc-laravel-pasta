@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+header img {
+  height: 100px;
+  width: 100px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 24px;
+}
+
+section {
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer h2 {
+  text-align: center;
+  padding-top: 24px;
+}
+
+footer ul {
+  padding-bottom: 24px;
+}
+
